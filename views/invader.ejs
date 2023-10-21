@@ -1,0 +1,21 @@
+
+<%- include('partials/header') %>
+<style></style>
+  <form class="configuration">
+    <input type="number" placeholder="Taille de la grille" name="nbPixels" class="nbPixels">
+    <input type="number" placeholder="Taille des pixels" name="sizePixel" class="sizePixel">
+    <input type="submit" value="Valider" class="submit">
+  </form>
+  <div id="invader">
+    <div id="painter">
+    </div>
+  </div>
+  <div id="selectors">
+    <div class="selector selector--gray" id="gray"></div>
+    <div class="selector selector--dark selector--selected" id="dark"></div>
+    <div class="selector selector--yellow" id="yellow"></div>
+    <div class="selector selector--green" id="green"></div>
+  </div>
+  <script src="/js/invader.js"></script>
+</body>
+</html>
